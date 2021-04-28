@@ -50,7 +50,7 @@ span.psw {
 </style>
 </head>
 <body>
-	<h1>Fancy Store</h1>
+	<h1>Medical Store</h1>
 	<h1>  <h1>
 	<form action="Login" method="post">
 	  <div class="container" >

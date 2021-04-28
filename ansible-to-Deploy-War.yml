@@ -1,9 +1,0 @@
----
-- name: Deploying .war from artifact to tomcat
-  hosts: all
-  become: true
-  tasks:
-  - name: Copying .war
-    copy: 
-     src: /var/lib/jenkins/workspace/Assgn1-Deploy-to-Jfrog-artifactory/target/ILP_Fancystore.war
-     dest: /home/cicd/cicdtools/tomcat/apache-tomcat-8.5.63/webapps
